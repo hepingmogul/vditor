@@ -48,7 +48,8 @@ export abstract class Constants {
         // 别名
         "js", "ts", "html", "toml", "c#", "bat"
     ];
-    public static readonly CDN = `https://unpkg.com/vditor@${VDITOR_VERSION}`;
+    // public static readonly CDN = `https://unpkg.com/vditor@${VDITOR_VERSION}`;
+    public static readonly CDN = `https://oss.videoseek.ai/prod/static/cdn/vditor/3.11.1`;
     public static readonly MARKDOWN_OPTIONS = {
         autoSpace: false,
         gfmAutoLink: true,
